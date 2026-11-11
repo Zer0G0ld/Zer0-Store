@@ -228,6 +228,18 @@
       "min_fw": "5.05",
       "cover_url": "https://ngcpgames.com.br/cdn/shop/files/hollow-ps4-x88o4xy6w4.png?v=1792204529&width=640"
     },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Persona.5.Royal-CUSA17419-EUR-Game-PS4.pkg": {
+      "title_id": "CUSA17419",
+      "region": "USA",
+      "name": "Persona 5 Royal",
+      "size": 2500000000,
+      "platform": "ps4",
+      "type": "game",
+      "version": "1.00",
+      "release": "12-15-2022",
+      "min_fw": "9.00",
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
     "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Poppy-Playtime-Chapter-1-PS4.pkg": {
       "title_id": "CUSA46876",
       "region": "USA",
