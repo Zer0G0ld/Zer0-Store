@@ -47,6 +47,18 @@
       "size": 123456789,
       "min_fw": "9.82",
       "cover_url": "https://ngcpgames.com.br/cdn/shop/files/hollow-ps4-x88o4xy6w4.png?v=1792204529&width=640"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Persona.5.Royal-CUSA17419-EUR-Update-1.02-(6.72%2B)-PS4.pkg": {
+      "title_id": "CUSA17419",
+      "region": "USA",
+      "name": "Persona 5 Royal [Update (Patch) v1.02]",
+      "version": "1.02",
+      "platform": "ps4",
+      "type": "update",
+      "release": "09-25-2018",
+      "size": 916455424,
+      "min_fw": "9.82",
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
     }
   }
 }
