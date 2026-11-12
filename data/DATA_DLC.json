@@ -193,6 +193,54 @@
       "version": "1.00",
       "size": 131072,
       "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Fatal.Frame.MoBW.CUSA28986.DLC.20th.Anniversary.Digital.Artbook-Whitehawkx.pkg": {
+      "title_id": "CUSA28986",
+      "region": "USA",
+      "name": "Fatal Frame: Maiden of Black Water [DLC: 20th Anniversary Artbook & Soundtrack]",
+      "size": 4016046080,
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "release": "09-30-2022",
+      "min_fw": "8.50",
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/FATAL-FRAME_-Maiden-of-Black-Water-PS4-PKG-240x300.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Fatal.Frame.MoBW.CUSA28986.DLC.Past.Protagonists.Costume.Set-Whitehawkx.pkg": {
+      "title_id": "CUSA28986",
+      "region": "USA",
+      "name": "Fatal Frame: Maiden of Black Water [DLC: Past Protagonists Costume Set (White)]",
+      "size": 256901120,
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "release": "09-30-2022",
+      "min_fw": "8.50",
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/FATAL-FRAME_-Maiden-of-Black-Water-PS4-PKG-240x300.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Fatal.Frame.MoBW.CUSA28986.DLC.Yuri.Exclusive.Costume.Ryza.Outfit.Ryza.Hat-Whitehawkx.pkg": {
+      "title_id": "CUSA28986",
+      "region": "USA",
+      "name": "Fatal Frame: Maiden of Black Water [DLC: Yuri Exclusive Costume - Ryza Outfit]",
+      "size": 50593792,
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "release": "09-30-2022",
+      "min_fw": "8.50",
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/FATAL-FRAME_-Maiden-of-Black-Water-PS4-PKG-240x300.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Fatal.Frame.MoBW.CUSA28986.DLC.Yuri.Miu.Ren.Exclusive.Costume.Camera.Obscura.Hat.Witchs.Hat-Whitehawkx.pkg": {
+      "title_id": "CUSA28986",
+      "region": "USA",
+      "name": "Fatal Frame: Maiden of Black Water [DLC: Yuri, Miu & Ren Exclusive Costume - Casual]",
+      "size": 51838976,
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "release": "09-30-2022",
+      "min_fw": "8.50",
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/FATAL-FRAME_-Maiden-of-Black-Water-PS4-PKG-240x300.webp"
     }
   }
 }

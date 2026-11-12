@@ -11,7 +11,9 @@ async function carregarDetalhes() {
     try {
         const todosOsJogos = await carregarDados();
         
-        const linkOriginal = decodeURIComponent(idJogo);
+        //const linkOriginal = decodeURIComponent(idJogo);
+        const linkOriginal = idJogo; 
+
         const jogo = todosOsJogos.find(j => j.link === linkOriginal);
 
         if (!jogo) throw new Error("Item não encontrado no banco de dados.");
