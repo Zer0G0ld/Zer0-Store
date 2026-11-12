@@ -12,18 +12,6 @@
       "min_fw": "5.95",
       "cover_url": "https://cdn.awsli.com.br/2500x2500/2992/2992030/produto/402080720/f9dde080bd274e11839f563f920736d6-xadxn70z4x.png"
     },
-    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Call-of-Duty-Black-Ops-II-DLC.rar": {
-      "title_id": "CUSA57548",
-      "region": "USA",
-      "name": "Call of Duty: Black Ops II [DLC Pack (Season Pass)]",
-      "version": "1.00",
-      "platform": "ps4",
-      "type": "dlc",
-      "release": "08-28-2022",
-      "size": 987654321,
-      "min_fw": "5.95",
-      "cover_url": "https://cdn.awsli.com.br/2500x2500/2835/2835417/produto/402172575/ad1c621ca4fb41b0baa377f777315013-16yqavrrf9.png"
-    },
     "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Call_of_Duty_Black_Ops_III_Awakening_DLC-CUSA02624.pkg": {
       "title_id": "CUSA03004",
       "region": "USA",
@@ -95,6 +83,116 @@
       "size": 15660000000,
       "min_fw": "5.95",
       "cover_url": "https://m.media-amazon.com/images/I/615S2VgX71L._AC_UF1000,1000_QL80_.jpg"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-ADDCONTENT000030-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Add Content 030",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-ADDCONTENT000031-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Add Content 031",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-ADDCONTENT000032-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Add Content 032",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-ADDCONTENT000033-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Add Content 033",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-ADDCONTENT000034-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Add Content 034",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-ADDCONTENT000035-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Add Content 035",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-P5RDLCBUNDLE0001-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Bundle 01",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-P5RDLCBUNDLE0002-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Bundle 02",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-P5RDLCBUNDLE0003-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Bundle 03",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-P5RDLCBUNDLE0004-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Bundle 04",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/EP0177-CUSA17419_00-PERSONA5RDLCPACK-A0000-V0100.pkg": {
+      "title_id": "CUSA17419",
+      "region": "EUR",
+      "name": "Persona 5 Royal - DLC Pack Completo",
+      "platform": "ps4",
+      "type": "dlc",
+      "version": "1.00",
+      "size": 131072,
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/Persona-5-Royal-PS4-PKG.webp"
     }
   }
 }

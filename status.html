@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status do Sistema - Zer0 Store</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* CSS ESPECÍFICO DA PÁGINA DE STATUS */
+        .status-page-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .status-page-container h1 {
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(102, 192, 244, 0.4);
+        }
+        .status-page-container p.subtitle {
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        /* Reutiliza o design da barrinha, mas maior */
+        .status-page-container .status-container {
+            transform: scale(1.2);
+            margin-bottom: 50px;
+        }
+        .status-details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .status-card {
+            background: var(--bg-panel);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+        .status-card:hover {
+            border-color: rgba(102, 192, 244, 0.4);
+            transform: translateY(-5px);
+        }
+        .status-card i {
+            font-size: 2.5em;
+            color: var(--steam-blue);
+            margin-bottom: 15px;
+        }
+        .status-card h3 {
+            color: white;
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+        }
+        .status-card p {
+            color: var(--text-muted);
+            margin: 0;
+            font-size: 0.9em;
+        }
+        .btn-voltar-status {
+            display: inline-block;
+            margin-top: 40px;
+            background: rgba(102, 192, 244, 0.1);
+            border: 1px solid rgba(102, 192, 244, 0.3);
+            color: var(--steam-blue);
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-voltar-status:hover {
+            background: var(--steam-blue);
+            color: #000;
+        }
+        @media (max-width: 600px) {
+            .status-details-grid { grid-template-columns: 1fr; }
+            .status-page-container .status-container { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER PADRÃO -->
+    <header class="hub-header">
+        <div class="logo" onclick="window.location.href='index.html'" style="cursor:pointer;">Zer0 Store</div>
+        <nav class="nav-plataformas">
+            <a href="loja.html?p=pc">PC</a>
+            <a href="loja.html?p=ps5">PS5</a>
+            <a href="loja.html?p=ps4">PS4</a>
+            <a href="loja.html?p=ps3">PS3</a>
+            <a href="loja.html?p=ps2">PS2</a>
+            <a href="loja.html?p=psp">PSP</a>
+            <a href="loja.html?p=xbox">XBOX</a>
+            <a href="loja.html?p=apps">APP</a>
+            <a href="loja.html?p=themes">TEMAS</a>
+            <a href="loja.html?p=emulators">EMULADORES</a>
+            <a href="loja.html?p=dlc">DLCs</a>
+            <a href="loja.html?p=updates">UPDATES</a>
+        </nav>
+        <div class="header-actions">
+            <a href="jb.html" class="btn-jb"><i class="fa-solid fa-bolt"></i> Desbloquear</a>
+        </div>
+    </header>
+
+    <main class="status-page-container">
+        <h1><i class="fa-solid fa-heart-pulse"></i> Status do Sistema</h1>
+        <p class="subtitle">Verifique em tempo real a integridade dos nossos servidores de download.</p>
+
+        <!-- O script saude.js vai injetar os dados aqui automaticamente -->
+        <div id="status-hf" class="status-container" style="display: flex; margin: 0 auto 50px auto;"></div>
+
+        <div class="status-details-grid">
+            <div class="status-card">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <h3>Downloads</h3>
+                <p>Nossos links são hospedados via Hugging Face. Os downloads estão liberados e estáveis para todos os consoles.</p>
+            </div>
+            
+            <div class="status-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Armazenamento</h3>
+                <p>Estamos quase batendo a marca de 1 TB em jogos, DLCs, updates e aplicativos prontos para instalar.</p>
+            </div>
+
+            <div class="status-card">
+                <i class="fa-brands fa-discord"></i>
+                <h3>Suporte</h3>
+                <p>Nossa equipe está ativa no Discord. Se algum link falhar, abra um ticket no canal #abrir-ticket.</p>
+            </div>
+
+            <div class="status-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Segurança</h3>
+                <p>Os arquivos são verificados diariamente para garantir a integridade e a segurança dos PKGs.</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn-voltar-status"><i class="fa-solid fa-arrow-left"></i> Voltar para a Loja</a>
+    </main>
+
+    <!-- FOOTER PADRÃO -->
+    <footer class="hub-footer">
+        <div class="footer-content">
+            <div class="footer-logo">Zer0 Store</div>
+            <div class="footer-links">
+                <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="jb.html"><i class="fa-solid fa-bolt"></i> Desbloqueio</a>
+                <a href="https://discord.gg/BQVxXB8EdS" target="_blank"><i class="fa-brands fa-discord"></i> Discord</a>
+                <a href="https://github.com/Zer0G0ld/Zer0-Store" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+            <div class="footer-info">
+                <p>O seu Hub Universal de Jogos.</p>
+                <p>&copy; 2026 Zer0 Store. Todos os direitos reservados.</p>
+                <p>Não hospedamos arquivos. Todos os links são de terceiros.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="saude.js"></script>
+    <script src="footer.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>

@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             <div class="menu-actions">
                 <a href="${base}jb.html" class="btn-desbloquear">Desbloquear PS4</a>
-                <a href="https://discord.gg/seu-link" target="_blank" class="btn-discord"><i class="fa-brands fa-discord"></i> Entrar no Discord</a>
+                <a href="https://discord.gg/BQVxXB8EdS" target="_blank" class="btn-discord"><i class="fa-brands fa-discord"></i> Entrar no Discord</a>
             </div>
         `;
 
