@@ -71,6 +71,18 @@
       "size": 147849216, 
       "min_fw": "8.50",
       "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/FATAL-FRAME_-Maiden-of-Black-Water-PS4-PKG-240x300.webp"
+    },
+    "https://huggingface.co/datasets/Zer0G0ld/ps4z/resolve/main/Fatal.Frame.Mask.of.The.Lunar.Eclipse-CUSA36876-ASIA-v1.04-%5BFix.5.05-9.00%5D-PS4.pkg": {
+      "title_id": "CUSA36876",
+      "region": "ASIA",
+      "name": "Fatal Frame: Mask of the Lunar Eclipse [Update v1.04]",
+      "size": 1374389534,
+      "platform": "ps4",
+      "type": "update",
+      "version": "1.04",
+      "release": "03-09-2023",
+      "min_fw": "9.50",
+      "cover_url": "https://www.superpsx.com/wp-content/uploads/2024/09/FATAL-FRAME_-Mask-of-the-Lunar-Eclipse-_PS4-_-PS5_-PS4-PKG-240x300.webp"
     }
   }
 }
